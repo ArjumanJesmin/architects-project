@@ -28,6 +28,7 @@
     display: flex;
     justify-content: end;
     list-style: none;
+    padding-bottom: 40px;
 }
 
 .header-menu ul li a {
@@ -37,19 +38,50 @@
     color: #424242;
 }
 .header-section{
-    padding: 50px  240px 30px;
+    width: 100%;
+text-align: center;
+margin-bottom: 30px;
 }
 .header-title{
-    font-size: 55px;
+    text-align: center;
+    font-size: 50px;
     font-weight: 700;
     text-align: center;
     color:#131313;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
 }
 .header-desc{
-    font-size: 20px;
+    text-align: center;
+    font-size: 14px;
     font-weight: 400;
     text-align: center;
     color:#727272 ;
+    padding: 20px;
+    margin-bottom: 10px;
+ }
+ .header-btn{
+    font-size:16px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF ;
+    background-color:orange;
+    padding: 10px;
+    
+ }
+ /* End Header button area */
+
+ /* ---------------
+ section banner area start
+ ------------------------ */
+ .section-banner{
+    text-align: center;
+ }
+ .section-banner img{
+    width: 60%;
+    height: 35%;
+    margin-bottom: 30px;
+    border-radius: 10px; 
  }
 
 /* Media Queries small device area start */
@@ -76,6 +108,12 @@
         font-size: 15px;
         color: #424242;
     }
+    .section-banner img{
+        width: 80%;
+        height: 40%;
+        margin: 5px;
+        border-radius: 10px; 
+     }
     }
 
 
