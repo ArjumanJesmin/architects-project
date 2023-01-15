@@ -237,12 +237,10 @@ article area start
  feb-icons area start
  ------------- */
 .feb-icons {
-    /* display: grid;
-   grid-template-columns: 200px 200px 200px 200px; */
     display: flex;
     justify-content: center;
-    
 }
+
 .icon {
     padding: 35px;
     margin: 30px;
@@ -250,20 +248,77 @@ article area start
     text-align: center;
     border-radius: 5px;
 }
-.icon img{
-width: 30px;
-height: 30px;
+
+.icon img {
+    width: 30px;
+    height: 30px;
 }
-.number{
-color: #424242;
-font-size: 35px;
-font-weight: 600;
+
+.number {
+    color: #424242;
+    font-size: 35px;
+    font-weight: 600;
 }
-.name{
-color: #727272;
-font-size: 16px;
-font-weight: 600;
-opacity: .7;
+
+.name {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: .7;
+}
+
+/* -------- details area start ----------------- */
+.sponsor {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.sponsor-title {
+    color: #131313;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.sponsor-desc {
+    color: #727272;
+    font-size: 16px;
+    opacity: .7;
+}
+
+.sponsor-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    padding: 35px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.logo img {
+    width: 50px;
+    height: 30px;
+}
+/* -------------------
+ footer-area start 
+ ---------------------- */
+ footer{
+    margin-left: 35px;
+    width: 80%;
+    height: 70px;
+    border-radius: 5px;
+    background-color:#FFF4E7;
+    justify-content: center;
+}
+.footer-area{
+    text-align: center;
+    padding-top: 30px;
+}
+.footer-desc {
+    color: #727272;
+    font-size: 16px;
 }
 
 /* Media Queries small device area start */
@@ -308,6 +363,31 @@ opacity: .7;
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .team-members-image {
+        display: block;
+    }
+    /* ------ Main section Area Start ---- */
+
+    .features {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-members-image {
+        display: block;
+    }
+    /* ------ Main section Area Start ---- */
+
+    .features {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-members-image {
+        display: block;
+    }
+
+
     /* ------ enjoy architect area --------- */
     .our-enjoy {
         display: grid;
@@ -324,10 +404,12 @@ opacity: .7;
     }
 
     /* ----------feb-icons---------- */
-    .feb-icons{
+    .feb-icons {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        width: 100%;
     }
+
     .icon {
         padding: 5px;
         margin: 10px;
@@ -335,4 +417,25 @@ opacity: .7;
         text-align: center;
         border-radius: 5px;
     }
+     /* ----------details area start---------- */
+     .sponsor-logo {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 10px;
+    }
+
+    .logo {
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .footer-area{
+
+        width: 100%;
+        height: 70px;
+        border-radius: 5px;
+        background-color:#FFF4E7;
+    }
+
 }
